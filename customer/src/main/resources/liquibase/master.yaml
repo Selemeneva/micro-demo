@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changelog-001.xml
+
+
+

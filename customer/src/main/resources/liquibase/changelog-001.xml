@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+        http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet author="Selemeneva" id="1">
+        <createTable remarks="покупатель" tableName="customer">
+            <column autoIncrement="true" name="id" remarks="технический идентификатор" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="customer_id"/>
+            </column>
+            <column name="name" remarks="имя покупателя" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

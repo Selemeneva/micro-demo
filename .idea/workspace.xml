@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4de37667-a798-42f2-8858-e38f008b1cab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/customer-dal-jpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/liquibase/changelog-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/liquibase/master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/StockApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/controllers/ProductItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/controllers/WarehouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/ProductItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/repositories/ProductItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/repositories/WarehouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/customer-dal-jpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/liquibase/changelog-001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/liquibase/master.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.JpaLiquibaseChangeLog" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectId" id="2UO5LGhS5vpeicMcr6H9ziRYIT1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/nsele/micro-demo/stock/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nsele\micro-demo\stock\src\main" />
+      <recent name="C:\Users\nsele\micro-demo\stock\src\main\java\com\selemeneva" />
+      <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources\liquibase" />
+      <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources" />
+      <recent name="C:\Users\nsele\micro-demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources\liquibase" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selemeneva.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.bank-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="bank-db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.bank-db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4de37667-a798-42f2-8858-e38f008b1cab" name="Changes" comment="" />
+      <created>1692797730776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692797730776</updated>
+      <workItem from="1692797731780" duration="50179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

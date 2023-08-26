@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+        http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet author="Selemeneva" id="2">
+        <createTable remarks="карточка товара" tableName="product_item">
+            <column autoIncrement="true" name="id" remarks="технический идентификатор" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="product_item_id"/>
+            </column>
+            <column name="name" remarks="название товара" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+            <column name="supplier" remarks="наименование поставщика" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+            <column name="warehouse_id" remarks="id склада, где хранится товар" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet author="Selemeneva" id="3">
+        <createTable remarks="склад" tableName="warehouse">
+            <column autoIncrement="true" name="id" remarks="технический идентификатор" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="warehouse_id"/>
+            </column>
+            <column name="name" remarks="название склада" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+            <column name="warehouse_address" remarks="адрес склада" type="VARCHAR">
+                <constraints nullable="false"/>
+            </column>
+            <column name="warehouse_id" remarks="id склада, где хранится товар" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="Selemeneva" id="4">
+        <addForeignKeyConstraint baseColumnNames="warehouse_id" baseTableName="product_item"
+                                 constraintName="warehouse_id__product_item_fk" deferrable="false"
+                                 initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION"
+                                 referencedColumnNames="id" referencedTableName="warehouse"/>
+    </changeSet>
+
+</databaseChangeLog>

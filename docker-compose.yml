@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+
+  # Environment
+  bank-db:
+    image: postgres
+    hostname: micro
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mypassword
