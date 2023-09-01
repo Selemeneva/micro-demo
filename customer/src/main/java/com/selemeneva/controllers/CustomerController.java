@@ -32,6 +32,7 @@ public class CustomerController {
         Set<Customer> customerSet = customerService.getAllCustomers();
         return ResponseEntity.ok(customerSet);
     }
+
     @GetMapping("/{id}")
     @Operation(summary = "Получение покупателя по id",
             description = "Получение покупателя по id")
@@ -64,7 +65,4 @@ public class CustomerController {
         customerService.deleteCustomerById(id);
         return ResponseEntity.ok().build();
     }
-
-
-
 }

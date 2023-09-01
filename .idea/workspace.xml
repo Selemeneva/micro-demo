@@ -5,46 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4de37667-a798-42f2-8858-e38f008b1cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/CustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/customer-dal-jpa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/liquibase/changelog-001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/liquibase/master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/StockApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/controllers/ProductItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/controllers/WarehouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/ProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/repositories/ProductItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/repositories/WarehouseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/customer-dal-jpa.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/liquibase/changelog-001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/src/main/resources/liquibase/master.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/selemeneva/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/customer-app/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/service-discovery/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/stock-app/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/com/selemeneva/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/client/StockClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/java/com/selemeneva/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/test/java/com/selemeneva/servicediscovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/selemeneva/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delivery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/StockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/StockApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/model/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/ProductItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/ProductItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/WarehouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/WarehouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/selemeneva/service/WarehouseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,16 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2UO5LGhS5vpeicMcr6H9ziRYIT1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -78,15 +87,23 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/nsele/micro-demo/stock/src/main",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/micro-demo/config-server/src/main/resources/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "e34e9971460ba488d793a91b8ce847d0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -97,11 +114,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\micro-demo\config-server\src\main\resources\config" />
+      <recent name="D:\micro-demo" />
       <recent name="C:\Users\nsele\micro-demo\stock\src\main" />
       <recent name="C:\Users\nsele\micro-demo\stock\src\main\java\com\selemeneva" />
       <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources\liquibase" />
-      <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources" />
-      <recent name="C:\Users\nsele\micro-demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nsele\micro-demo\customer\src\main\resources\liquibase" />
@@ -114,7 +131,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selemeneva.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.selemeneva.CustomerApplication" />
@@ -122,8 +146,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selemeneva.servicediscovery.ServiceDiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="stock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.selemeneva.StockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml.bank-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -154,6 +194,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692797730776</updated>
       <workItem from="1692797731780" duration="50179000" />
+      <workItem from="1693575706079" duration="961000" />
+      <workItem from="1693576699101" duration="3811000" />
     </task>
     <servers />
   </component>

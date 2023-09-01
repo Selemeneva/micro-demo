@@ -2,21 +2,20 @@ package com.selemeneva.service;
 
 import com.selemeneva.model.Warehouse;
 import com.selemeneva.repositories.WarehouseRepository;
+import jakarta.persistence.EntityNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.webjars.NotFoundException;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
 @Service
 public class WarehouseServiceImpl implements WarehouseService{
-    private final WarehouseRepository warehouseRepository;
-
-    public WarehouseServiceImpl(WarehouseRepository warehouseRepository) {
-        this.warehouseRepository = warehouseRepository;
-    }
+    
+    @Autowired(required = false)
+    private WarehouseRepository warehouseRepository;
 
     @Override
     public Warehouse findById(Long id) {

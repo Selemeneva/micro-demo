@@ -3,21 +3,20 @@ package com.selemeneva.service;
 import com.selemeneva.model.Customer;
 import com.selemeneva.repositories.CustomerRepository;
 
+import jakarta.persistence.EntityNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.webjars.NotFoundException;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
 @Service
-public class CustomerServiceImpl implements CustomerService{
-    private final CustomerRepository customerRepository;
+public class CustomerServiceImpl implements CustomerService {
 
-    public CustomerServiceImpl(CustomerRepository customerRepository) {
-        this.customerRepository = customerRepository;
-    }
+    @Autowired(required = false)
+    private CustomerRepository customerRepository;
 
     @Override
     public Customer findById(Long id) {

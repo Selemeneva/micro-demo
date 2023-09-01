@@ -2,21 +2,20 @@ package com.selemeneva.service;
 
 import com.selemeneva.model.ProductItem;
 import com.selemeneva.repositories.ProductItemRepository;
+import jakarta.persistence.EntityNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.webjars.NotFoundException;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 
 @Service
 public class ProductItemServiceImpl implements ProductItemService{
-    private final ProductItemRepository productItemRepository;
-
-    public ProductItemServiceImpl(ProductItemRepository productItemRepository) {
-        this.productItemRepository = productItemRepository;
-    }
+    
+    @Autowired(required = false)
+    private ProductItemRepository productItemRepository;
 
     @Override
     public ProductItem findById(Long id) {

@@ -2,7 +2,6 @@ package com.selemeneva.service;
 
 import com.selemeneva.model.ProductItem;
 import com.selemeneva.model.Warehouse;
-import liquibase.pro.packaged.L;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;

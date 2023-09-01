@@ -1,11 +1,9 @@
 package com.selemeneva.model;
 
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-
 
 @Setter
 @Getter
